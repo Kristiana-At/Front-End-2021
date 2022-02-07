@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" href="login_style.css">
+    <script src = "loginValid.js"></script>
+</head>
+
+<body>
+    <form class="box" name="changeAction" method="POST">
+        <h1>
+            sign-up
+        </h1>
+        <input type = "text" name="" placeholder="Enter Username" id="username">
+        <input type = "password" name="" placeholder="Enter Password" id="password">
+        <ul class="helper-text">
+            <li class="length">Must be at least 8 characters long.</li>
+            <li class="lowercase">Must contain a lowercase letter.</li>
+            <li class="uppercase">Must contain an uppercase letter.</li>
+            <li class="special">Must contain a number or special character.</li>
+        </ul>
+        <input type = "submit" name="" value = "Sign-up" onclick = "store()">
+        <a href="login.html" class="helper-text">Already have an account? Log in here!</a>    
+    </form>   
+</body> 
+</html>
