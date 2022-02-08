@@ -52,4 +52,12 @@ fetch('./data.json')
             }
         }
 
+function goToPage(){
+    window.location.href = "ranking.html";
+}
+
+function goToLogin(){
+    window.location.href = "login.html";
+    localStorage.removeItem('logged');
+}
        
