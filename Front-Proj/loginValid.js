@@ -1,7 +1,13 @@
+ const loginForm = document.getElementsById("login-form");
+
+ if(loginForm){
+     loginForm.addEventListener("submit", event => event.preventDefault());
+   }
+
 function checkIfExist()
 {
     var storedUsersCheck = new Array();
-    storedUsersCheck = JSON.parse((localStorage.getItem("users")));
+    storedUsersCheck = JSON.parse((localStorage.getItem("users"))) || [];
 
     var usernameCheck = document.getElementById('username').value;
     for(let i = 0; i < storedUsersCheck.length; i++)
@@ -25,17 +31,17 @@ function store(){
     var upperCaseLetters = /[A-Z]/g;
     var numbers = /[0-9]/g;
 
-    user={
-        username: username.value,
-        password: password.value
-    };
+     user={
+         username: username.value,
+         password: password.value
+     };
 
-    if(localStorage.length)
-    {
-    a=JSON.parse((localStorage.getItem("users")));
-    }
+     if(localStorage.length)
+     {
+     a=JSON.parse((localStorage.getItem("users")));
+     }
 
-    a.push(user);
+     a.push(user);
 
     if(checkIfExist()){
         alert("User already exists!");
@@ -75,7 +81,7 @@ function store(){
 
 function check(){
     var storedUsers = new Array();
-    storedUsers = JSON.parse((localStorage.getItem("users")));
+    storedUsers = JSON.parse((localStorage.getItem("users"))) || [];
 
     var logUsername = document.getElementById('logUsername').value;
     var logPassword = document.getElementById('logPassword').value;
@@ -83,12 +89,9 @@ function check(){
     for(let i = 0; i < storedUsers.length; i++)
     {
         if(logUsername == storedUsers[i].username && logPassword == storedUsers[i].password){
-
-            document.getElementsById("sub").addEventListener("onclick", function(event){
-                event.preventDefault()
-              });
-            //document.changeAction.action = 'movie_list.html';
-            window.location.href = "movie_list.html";
+            document.changeAction.action = 'movie_list.html';
+            localStorage.setItem("logged", logUsername);
+            //window.location.href = "movie_list.html";
             //window.location = "movie_list_noJSON.html";
             // window.open('movie_list.html');
             return;

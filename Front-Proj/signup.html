@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Register</title>
     <link rel="stylesheet" href="login_style.css">
-    <script src = "loginValid.js"></script>
+    <script src = "loginValid.js" defer></script>
 </head>
 
 <body>
-    <form class="box" name="changeAction" method="POST">
+    <form class="box" id ="login-form" name="changeAction" method="POST">
         <h1>
             sign-up
         </h1>
@@ -22,7 +22,7 @@
             <li class="uppercase">Must contain an uppercase letter.</li>
             <li class="special">Must contain a number or special character.</li>
         </ul>
-        <input type = "submit" name="" value = "Sign-up" onclick = "store()">
+        <input id = "sub" type = "submit" name="" value = "Sign-up" onclick = "store()">
         <a href="login.html" class="helper-text">Already have an account? Log in here!</a>    
     </form>   
 </body> 

@@ -3,48 +3,56 @@
         "image": "orient.jpg",
         "description": "When a murder occurs on the train on which he's travelling, celebrated detective Hercule Poirot is recruited to solve the case.",
         "title": "Murder on the orient express",
-        "year": "2017"
+        "year": "2017",
+        "href": "Orient.html"
     },
     {
         "image": "crooked.jpg",
         "description": "In Agatha Christie's most twisted tale, a spy-turned-private-detective is lured by his former lover to catch her grandfather's murderer before Scotland Yard exposes dark family secrets.",
         "title": "Crooked house",
-        "year": "2017"
+        "year": "2017",
+        "href": "Crooked.html"
     },
     {
         "image": "kniv.jpg",
         "description": "A detective investigates the death of a patriarch of an eccentric, combative family.",
         "title": "Knives out",
-        "year": "2019"
+        "year": "2019",
+        "href": "Knives.html"
     },
     {
         "image": "none.jpg",
         "description": "Ten strangers are invited to an island by a mysterious host, and start to get killed one by one. Could one of them be the killer?",
         "title": "And then there were none",
-        "year": "2015"
+        "year": "2015",
+        "href": "None.html"
     },
     {
         "image": "angel.jpg",
         "description": "A woman grieving over the death of her daughter loses grip of reality when she begins to think her girl may still be alive.",
         "title": "Angel of mine",
-        "year": "2019"
+        "year": "2019",
+        "href": "Angel.html"
     },
     {
         "image": "assimple.jpg",
         "description": "Stephanie is a single mother with a parenting vlog who befriends Emily, a secretive upper-class woman who has a child at the same elementary school. When Emily goes missing, Stephanie takes it upon herself to investigate.",
         "title": "A simple favor",
-        "year": "2018"
+        "year": "2018",
+        "href": "Favor.html"
     },
     {
         "image": "nile.jpg",
         "description": "While on vacation on the Nile, Hercule Poirot must investigate the murder of a young heiress.",
         "title": "Death on the Nile",
-        "year": "2022"
+        "year": "2022",
+        "href": "Nile.html"
     },
     {
         "image": "mystery.jpg",
         "description": "A New York cop and his wife go on a European vacation to reinvigorate the spark in their marriage, but end up getting framed and on the run for the death of an elderly billionaire.",
         "title": "Murder mystery",
-        "year": "2019"
+        "year": "2019",
+        "href": "Mystery.html"
     }
 ]

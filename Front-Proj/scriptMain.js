@@ -38,7 +38,7 @@ fetch('./data.json')
 
                 img.src = data[i].image;
                 p.innerHTML = data[i].description;
-                a.href = "login.html";
+                a.href = data[i].href;
                 a.innerHTML = data[i].title;
                 span.innerHTML = data[i].year;
 
